@@ -1,0 +1,9 @@
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\bin\Debug\B00009999_GUI_Class.exe.config
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\bin\Debug\B00009999_GUI_Class.exe
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\bin\Debug\B00009999_GUI_Class.pdb
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\obj\Debug\B00009999_GUI_Class.csproj.AssemblyReference.cache
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\obj\Debug\B00009999_GUI_Class.Properties.Resources.resources
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\obj\Debug\B00009999_GUI_Class.csproj.GenerateResource.cache
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\obj\Debug\B00009999_GUI_Class.csproj.CoreCompileInputs.cache
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\obj\Debug\B00009999_GUI_Class.exe
+C:\Users\MEGAS\Desktop\GUI_Class_2024\B00009999_GUI_Class\B00009999_GUI_Class\obj\Debug\B00009999_GUI_Class.pdb
