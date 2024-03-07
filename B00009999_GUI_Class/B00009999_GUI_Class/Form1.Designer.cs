@@ -31,6 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.btnButton = new System.Windows.Forms.Button();
+            this.btnBMI = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -69,11 +71,32 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "小叮噹";
             // 
+            // btnButton
+            // 
+            this.btnButton.Location = new System.Drawing.Point(48, 156);
+            this.btnButton.Name = "btnButton";
+            this.btnButton.Size = new System.Drawing.Size(142, 59);
+            this.btnButton.TabIndex = 8;
+            this.btnButton.Text = "按鈕";
+            this.btnButton.UseVisualStyleBackColor = true;
+            this.btnButton.Click += new System.EventHandler(this.btnButton_Click);
+            // 
+            // btnBMI
+            // 
+            this.btnBMI.Location = new System.Drawing.Point(48, 231);
+            this.btnBMI.Name = "btnBMI";
+            this.btnBMI.Size = new System.Drawing.Size(142, 79);
+            this.btnBMI.TabIndex = 9;
+            this.btnBMI.Text = "BMI計算";
+            this.btnBMI.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBMI);
+            this.Controls.Add(this.btnButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
@@ -88,6 +111,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnButton;
+        private System.Windows.Forms.Button btnBMI;
     }
 }
 
