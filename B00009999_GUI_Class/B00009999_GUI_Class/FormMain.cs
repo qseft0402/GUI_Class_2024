@@ -12,6 +12,7 @@ namespace B00009999_GUI_Class
 {
     public partial class FormMain : Form
     {
+        Form formButton = null;
         public FormMain()
         {
             InitializeComponent();
@@ -20,8 +21,18 @@ namespace B00009999_GUI_Class
         private void btnButton_Click(object sender, EventArgs e)
         {
             //btnButton.Text = "我已經被按過了";
-            Form form = new FormButton();
-            form.Show();
+            if (formButton == null) { 
+                formButton = new FormButton();
+                formButton.Show();
+            }
+            else
+            {
+                formButton.Close();
+                formButton = new FormButton();
+                formButton.Show();
+            }
+
+
         }
     }
 }

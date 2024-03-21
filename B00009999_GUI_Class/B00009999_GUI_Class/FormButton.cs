@@ -25,5 +25,19 @@ namespace B00009999_GUI_Class
                 btnClick.Text = "請按我一下";
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "下方按鈕已被按過";
+            label1.Size = new System.Drawing.Size(100, 20);
+            label1.BackColor = System.Drawing.Color.Green;
+        }
+
+        private void btnCount_Click(object sender, EventArgs e)
+        {
+            string tmp = labCount.Text; //抓到label的數字字串
+            int sum=Int32.Parse(tmp)+1; //將字串轉為int並+1
+            labCount.Text = sum.ToString(); //把sum轉乘string放到labCount的Text
+        }
     }
 }
