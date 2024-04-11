@@ -26,5 +26,27 @@ namespace B00009999_GUI_Class
         {
             label1.Text = tbInput.Text;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a,b;
+            try
+            {
+                a = Int32.Parse(textBox2.Text);
+                b = Int32.Parse(textBox3.Text);
+            }
+            catch (System.FormatException)
+            {
+                MessageBox.Show("請輸入數字!");
+                a = 0;
+                b = 0;
+            }
+
+            int sum = a + b;
+            label4.Text =sum.ToString();
+
+
+
+        }
     }
 }
