@@ -58,11 +58,23 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMidExam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMidExam.Designer.cs">
+      <DependentUpon>FormMidExam.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTextBox.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormTextBox.Designer.cs">
       <DependentUpon>FormTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTryCatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTryCatch.Designer.cs">
+      <DependentUpon>FormTryCatch.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,8 +84,14 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMidExam.resx">
+      <DependentUpon>FormMidExam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTextBox.resx">
       <DependentUpon>FormTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTryCatch.resx">
+      <DependentUpon>FormTryCatch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

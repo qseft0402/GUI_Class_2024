@@ -34,6 +34,8 @@
             this.btnButton = new System.Windows.Forms.Button();
             this.btnBMI = new System.Windows.Forms.Button();
             this.btnTextBox = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button_TryCatch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -101,11 +103,33 @@
             this.btnTextBox.UseVisualStyleBackColor = true;
             this.btnTextBox.Click += new System.EventHandler(this.btnTextBox_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(210, 241);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(142, 59);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "期中考-攝氏轉華氏";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button_TryCatch
+            // 
+            this.button_TryCatch.Location = new System.Drawing.Point(367, 156);
+            this.button_TryCatch.Name = "button_TryCatch";
+            this.button_TryCatch.Size = new System.Drawing.Size(142, 59);
+            this.button_TryCatch.TabIndex = 12;
+            this.button_TryCatch.Text = "TryCatch";
+            this.button_TryCatch.UseVisualStyleBackColor = true;
+            this.button_TryCatch.Click += new System.EventHandler(this.button_TryCatch_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_TryCatch);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTextBox);
             this.Controls.Add(this.btnBMI);
             this.Controls.Add(this.btnButton);
@@ -126,6 +150,8 @@
         private System.Windows.Forms.Button btnButton;
         private System.Windows.Forms.Button btnBMI;
         private System.Windows.Forms.Button btnTextBox;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_TryCatch;
     }
 }
 

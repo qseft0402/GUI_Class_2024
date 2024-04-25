@@ -41,5 +41,17 @@ namespace B00009999_GUI_Class
             formTextBox.Show();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form formMidExam = new FormMidExam();
+            formMidExam.Show();
+        }
+
+        private void button_TryCatch_Click(object sender, EventArgs e)
+        {
+            Form formTryCatch = new FormTryCatch();
+            formTryCatch.Show();
+        }
     }
 }
