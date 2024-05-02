@@ -53,5 +53,11 @@ namespace B00009999_GUI_Class
             Form formTryCatch = new FormTryCatch();
             formTryCatch.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form formTimer = new FormTimer();
+            formTimer.Show();
+        }
     }
 }
