@@ -59,5 +59,11 @@ namespace B00009999_GUI_Class
             Form formTimer = new FormTimer();
             formTimer.Show();
         }
+
+        private void btnGameFinalPaws_Click(object sender, EventArgs e)
+        {
+            Form form = new FormGameFinalPaws();
+            form.Show();
+        }
     }
 }
