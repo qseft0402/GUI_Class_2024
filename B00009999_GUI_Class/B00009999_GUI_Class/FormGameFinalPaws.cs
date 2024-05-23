@@ -33,18 +33,17 @@ namespace B00009999_GUI_Class
             try
             {
                 int input = Int32.Parse(textBox1.Text);
-                if (input == this.answer) //答對了
-                {
+                if (input == this.answer) //答對了 
                     MessageBox.Show("恭喜答對!");
-                }
+                else if (input<=this.min)
+                    MessageBox.Show("請輸入大於"+this.min);
+                else if (input>=this.max)
+                    MessageBox.Show("請輸入小於"+this.max);
                 else if(input < this.answer)
-                {
                     this.min = input;
-                }
                 else if(input > this.answer)
-                {
                     this.max = input;
-                }
+               
                 label2.Text = string.Format("請輸入{0}~{1}之間的數值", min, max);
             } catch(Exception e1) { 
                 MessageBox.Show("輸入錯誤，請輸入數字");
