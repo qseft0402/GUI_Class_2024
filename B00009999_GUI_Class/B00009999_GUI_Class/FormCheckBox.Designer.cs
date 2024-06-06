@@ -138,7 +138,7 @@
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(48, 16);
             this.checkBox5.TabIndex = 8;
-            this.checkBox5.Text = "薯條";
+            this.checkBox5.Text = "奶茶";
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // checkBox6
@@ -146,9 +146,9 @@
             this.checkBox6.AutoSize = true;
             this.checkBox6.Location = new System.Drawing.Point(26, 101);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(48, 16);
+            this.checkBox6.Size = new System.Drawing.Size(72, 16);
             this.checkBox6.TabIndex = 7;
-            this.checkBox6.Text = "漢堡";
+            this.checkBox6.Text = "楊枝甘露";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // checkBox7
@@ -156,9 +156,9 @@
             this.checkBox7.AutoSize = true;
             this.checkBox7.Location = new System.Drawing.Point(26, 79);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(60, 16);
+            this.checkBox7.Size = new System.Drawing.Size(48, 16);
             this.checkBox7.TabIndex = 6;
-            this.checkBox7.Text = "牛肉麵";
+            this.checkBox7.Text = "雪碧";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // checkBox8
@@ -166,9 +166,9 @@
             this.checkBox8.AutoSize = true;
             this.checkBox8.Location = new System.Drawing.Point(26, 57);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(60, 16);
+            this.checkBox8.Size = new System.Drawing.Size(48, 16);
             this.checkBox8.TabIndex = 5;
-            this.checkBox8.Text = "雞肉飯";
+            this.checkBox8.Text = "可樂";
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // label2
